@@ -2,7 +2,7 @@
 
 [Download the dataset from Dropbox](https://www.dropbox.com/s/qn4y16p52a2gn2w/remaining-lifespan-data.zip?dl=0) (size: 1.03 gb)
 
-The paper on arXiv [Estimating Remaining Lifespan from the Face](https://arxiv.org/abs/2301.08229)
+The paper on arXiv: [Estimating Remaining Lifespan from the Face](https://arxiv.org/abs/2301.08229)
 
 The data has been collected from Wikidata/Wikipedia of:
 - persons
@@ -44,4 +44,3 @@ Here's a description of the variable names in the info file:
 - is_grayscale: is the original image grayscale (has only one channel or the three channels are similar)
 - face_box: [x, y, w, h] of the face detected in the original image
 - face_keypoints: dict containing MTCNN face keypoints in the original image. Can be used if you want to filter the images for a specific pose.
-
